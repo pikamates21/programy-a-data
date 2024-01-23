@@ -1,0 +1,79 @@
+body, #particles-js canvas {
+    display: block;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    opacity: 0.8;
+    -webkit-transition: opacity .8s ease, -webkit-transform 1.4s ease;
+    transition: opacity .8s ease, transform 1.4s ease
+}
+
+#particles-js {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -10;
+    top: 0;
+    left: 0
+}
+body{
+    background: #232323;
+    background-size: cover
+    }
+main {
+width: 70%;
+background-color: rgb(155, 71, 244);
+margin: 0 auto;
+padding: 20px;
+border-radius:30px ;
+}
+header{
+    width: 100%;
+}
+footer{
+    color: white;
+    text-align: center;
+    font-size: 150%;
+}
+h1 {
+    color: rgb(153, 63, 255);
+    text-align: center;
+    font-size: 600%;
+    font-family: sans-serif;
+    margin-top: 0;
+    margin-bottom: 0.2cm;
+}
+h3{
+    color:rgb(194, 9, 9) ;
+    font-family: sans-serif;
+    font-size: 25px;
+}
+h4{
+    font-size: 100%;
+font-family: sans-serif;
+margin: 0;
+}
+.flex-container {
+    display: flex;
+    background-color: rgb(2, 25, 47);
+    flex-wrap: wrap;
+    border-radius: 30px;
+}
+.flex-container > div {
+    background-color: #ffffff; 
+    margin: 10px;
+    padding: 35px; 
+    font-size: 22px;
+    flex: 25%;
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+    main {
+        width: 90%; /* Hlavní část zabere 90% šířky */
+    }   
+     
+    .flex-container {
+        flex-direction: column; /* Položky budou pod sebou ve sloupci */
+    }
+}

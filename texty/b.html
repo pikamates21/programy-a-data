@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B - Operační systémy</title>
+    <link rel="stylesheet" href="../styly/styly_podkapitol.css">
+</head>
+
+<body>
+    <header>
+        <h1>B - Operační systémy</h1>
+    </header>
+    <main>
+        <h2 id="jadro-ovladace">Jádro a ovladače hardware</h2>
+        <p>
+            Programové vybavení (software) je podmínkou využití technického vybavení
+            (hardware). V raných dobách počítačové éry byly programy vytvářeny vždy pro konkrétní hardware. V okamžiku,
+            kdy počítače začaly být produkovány ve větších sériích, objevila se i potřeba vývoje speciálních
+            <b>systémových
+                programů</b>, které by obstaraly základní
+            operace s hardwarem a nabídly prostředí pro běh aplikací, tj. programů určených pro konkrétní účely.</p>
+        <p>Základním programovým vybavením počítačů (a jim podobných zařízení) jsou <b>operační systémy</b> (OS -
+            Operation System). Jejich nejdůležitější funkcí je zajištění řízení
+            hardware. To má na starosti <b>jádro systému</b>,
+            které tvoří subsystémy pro správu procesoru, paměti, diskových médií a dalších zařízení. Jádro pro své
+            operace vyžaduje instalaci ovladačů jednotlivých zařízení (drivers) a s jejich pomocí zpřístupňuje technické
+            vybavení běžícím procesům.</p>
+        <h2 id="pi-gui">PI a GUI význam</h2>
+        <p>
+            Nezbytnou součástí operačních systémů je <b>aplikační rozhraní</b> (API - Application
+            Programming Interface), které
+            nabízí programátorům prostředky pro vývoj aplikací pro daný systém. <b>Uživatelské rozhraní</b> slouží k
+            ovládání OS a
+            k spouštění aplikací. Zatímco starší OS se ovládaly častěji prostřednictvím
+            <b>příkazového řádku</b> (CLI - Command Line Interface), moderní systémy poskytují <b>grafické uživatelské
+                rozhraní</b> (GUI -
+            Graphic User Interface) založené na oknech a grafických prvcích.
+        </p>
+        <p>Na počátku vývoje moderních OS byl víceúlohový a víceuživatelský systém
+            <b>UNIX</b>, který se od 70. let používal v sálových počítačích i minipočítačích. Jeho principy využily i
+            další OS.
+            V 80. letech minulého století si vzájemně konkurovaly systémy firmy Microsoft (<b>MS DOS</b>), instalované
+            na
+            počítačích IBM PC, a firmy Apple (<b>Mac OS</b>), která rozvinula myšlenky vývojářů společnosti Xerox a
+            začala jako
+            první používat grafické uživatelské rozhraní. To se stalo také základem <b>MS
+                Windows</b>, jenž hrál prim především na přelomu tisíciletí. V té době už získával stále větší
+            popularitu volně
+            šiřitelný systém
+            <b>Linux</b>, pojmenovaný podle svého tvůrce Linuse Torvaldse a staršího vzoru UNIXu. Zatímco operační
+            systémy
+            Windows dominují především na osobních počítačích v domácnostech i kancelářích, různé linuxové distribuce
+            jsou velmi často instalovány na
+            síťových serverech.
+        </p>
+        <img src="../obrazky/linux.jpg" alt="linux">
+        <h2 id="typy-os">Typy OS zařízení</h2>
+        <p>
+            Současné OS rozdělujeme nejčastěji podle typů zařízení, pro která jsou určeny. Existují
+            <b>systémy pro síťové servery</b> (např. MS Windows 2012 Server, Linux, Unix), <b>pro běžné osobní
+                počítače</b> -
+            desktopy, notebooky, netbooky (např.
+            MS Windows, Linux Ubuntu, OS X), <b>pro mobilní zařízení</b> (Android, Symbian,
+            Windows Phone, iOS) i speciální RTOS (Real-Time Operating System - systémy reálného času), které zajišťují
+            provoz „chytrých“ zařízení, jakými jsou robotické kamery využívané pro sportovní přenosy, měřící přístroje
+            na
+            orbitálních stanicích nebo jednotky pro
+            řízení různých průmyslových procesů. Zatímco u desktopového systému je možné pozdržet dokončení některých
+            operací a provádět paralelně jiné operace, v případě <b>RTOS</b> je nezbytné provádět operace bez prodlevy a
+            s vysokou
+            spolehlivostí v reálném čase.
+        </p>
+    </main>
+    <footer>
+        <hr>
+        <p>&copy; 2024, autor: <b>Matěj Pika</b>, třída: <b>IT1</b> &reg;</p>
+    </footer>
+</body>
+
+</html>
